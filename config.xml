@@ -2,7 +2,7 @@
     <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         id          = "de.geekonaut.instantprototype"
-        versionCode = "10" 
+        versionCode = "10"
         version     = "0.0.1" >
 
     <name>Instant Prototype</name>
@@ -14,8 +14,13 @@
     <author href="http://www.geekonaut.de" email="mr.avgp+appsupport@gmail.com">
       Martin Naumann
     </author>
-    
-    <gap:plugin name="com.phonegap.plugins.barcodescanner" />
 
     <feature name="http://api.phonegap.com/1.0/device" />
+    <gap:plugin name="com.phonegap.plugins.barcodescanner" />
+    <preference name="load-url-timeout" value="60000" />
+
+    <content src="index.html" />
+    <access origin="*" />
+
+    <icon src="img/icon.png" />
 </widget>
