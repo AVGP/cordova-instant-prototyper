@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "de.geekonaut.instantprototype"
+        versionCode = "10" 
+        version     = "0.0.1" >
+
+    <name>Instant Prototype</name>
+
+    <description>
+      Client for the brackets-instant-prototyper extension
+    </description>
+
+    <author href="http://www.geekonaut.de" email="mr.avgp+appsupport@gmail.com">
+      Martin Naumann
+    </author>
+    
+    <gap:plugin name="com.phonegap.plugins.barcodescanner" />
+
+</widget>
